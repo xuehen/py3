@@ -51,6 +51,7 @@ def d(args):
     del args[1]
     print(args)
     args.pop()  #默认最后一个元素,指定索引即可删除指定索引的元素,删除的元素需要使用
+    args.remove('specialized') #删除值
     print(args)
 
 m(bicycles)
